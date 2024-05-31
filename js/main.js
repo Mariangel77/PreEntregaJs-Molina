@@ -64,7 +64,7 @@ function leerDatosVino(vino){
      //Objeto
     infoVino = {
         imagen: vino.querySelector('img').src,
-        bodegaMarca: vino.querySelector('p').textContent,
+        bodegaMarca: vino.querySelector('h4').textContent,
         precio: vino.querySelector('.precio').textContent,
         id: vino.querySelector('a').getAttribute('data-id'),
         cantidad: 1
