@@ -1,0 +1,33 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 10px 0;
+} 
+
+.logo{
+    margin-left: 10%;
+}
+
+.img-fluid{
+    margin-top: 15%;
+}
+
+
+.vinos-caros{
+    margin-top: 10%;
+}
+
+.borrar-vino{
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
